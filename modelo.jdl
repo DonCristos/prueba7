@@ -1,0 +1,25 @@
+entity Jefe {
+    nombreJefe String required,
+    telefonoJefe String required
+}
+
+entity Departamento {
+    nombreDepartamento String required unique,
+    ubicacionDepartamento String,
+    presupuestoDepartamento Double
+}
+
+entity Empleado {
+    nombreEmpleado String required,
+    apellidoEmpleado String required,
+    telefonoEmpleado String,
+    correoEmpleado String
+}
+
+relationship OneToMany {
+    Jefe to Departamento { jefe }
+}
+
+relationship OneToMany {
+    Departamento to Empleado { departamento }
+}

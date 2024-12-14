@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20241214014735"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "nombreEmpleado",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "apellidoEmpleado",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "telefonoEmpleado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "correoEmpleado",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Empleado",
+  "relationships": [
+    {
+      "otherEntityName": "departamento",
+      "relationshipName": "departamento",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
