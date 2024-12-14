@@ -1,4 +1,5 @@
 # prueba7
+<<<<<<< HEAD
 
 This application was generated using JHipster 8.7.3, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.7.3](https://www.jhipster.tech/documentation-archive/v8.7.3).
 
@@ -263,3 +264,6 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [Leaflet]: https://leafletjs.com/
 [DefinitelyTyped]: https://definitelytyped.org/
 [Angular CLI]: https://cli.angular.io/
+=======
+esta es una prueba
+>>>>>>> bc0d27fbf573dfe0ffff76872b5531b3d7fcbd1a
